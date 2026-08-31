@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_URL = "https://soil-ia40.onrender.com"
+API_URL = "https://soil-ia40.onrender.com/predict"
 
 SOIL_TYPES = ["Black", "Clayey", "Loamy", "Red", "Sandy"]
 CROP_TYPES = [
